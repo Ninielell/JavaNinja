@@ -37,7 +37,7 @@ public class EstudoSwitchCases {
                 System.out.println("o usuario escolheu a chata da Sakura Haruno");
                 break;
             default:
-                System.out.println("Opção inválida");
+                System.out.println("Você não digitou uma resposta valida, tente novamente!");
                 break;
         }
 
