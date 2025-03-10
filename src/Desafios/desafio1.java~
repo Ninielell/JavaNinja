@@ -1,0 +1,85 @@
+package Desafios;
+import java.util.Scanner;
+
+public class desafio1 {
+    public static void main(String[] args) {
+        Scanner Scanner = new Scanner(System.in);
+
+        String nome;
+        String missao;
+        String status;
+        int idade;
+        char dificuldade;
+
+        System.out.print("Qual o nome do ninja?: ");
+        nome = Scanner.next();
+        System.out.print("Qual a idade do ninja?: ");
+        idade = Scanner.nextInt();
+        System.out.print("Qual a missão do ninja?: ");
+        missao = Scanner.next();
+        System.out.print("Qual a dificuldade da missão?: ");
+        dificuldade = Scanner.next().charAt(0);
+
+        if (idade < 15) {
+            if (dificuldade == 'C' || dificuldade == 'D') {
+                status = "Concluido";
+            } else {
+                status = "Nao concluido";
+            }
+        } else {
+            status = "Concluido";
+        }
+
+        System.out.println("------------------------");
+        System.out.println("Ninja: " + nome);
+        System.out.println("Idade: " + idade);
+        System.out.println("Missão: " + missao);
+        System.out.println("Dificuldade: " + dificuldade);
+        System.out.println("Status da missão: " + status);
+
+        /*nome = "Maito Gai";
+        missao = "Derrote Madara Uchiha";
+        idade = 28;
+        dificuldade = 'S';
+
+        if (idade < 15) {
+            if (dificuldade == 'C' || dificuldade == 'D') {
+                status = "Concluido";
+            } else {
+                status = "Nao concluido";
+            }
+        } else {
+            status = "Concluido";
+        }
+
+        System.out.println("------------------------");
+        System.out.println("Ninja: " + nome);
+        System.out.println("Idade: " + idade);
+        System.out.println("Missão: " + missao);
+        System.out.println("Dificuldade: " + dificuldade);
+        System.out.println("Status da missão: " + status);
+
+
+        nome = "Shikamaru Nara";
+        missao = "Mate Hidan";
+        idade = 14;
+        dificuldade = 'A';
+
+        if (idade < 15) {
+            if (dificuldade == 'C' || dificuldade == 'D') {
+                status = "Concluido";
+            } else {
+                status = "Nao concluido";
+            }
+        } else {
+            status = "Concluido";
+        }
+
+        System.out.println("------------------------");
+        System.out.println("Ninja: " + nome);
+        System.out.println("Idade: " + idade);
+        System.out.println("Missão: " + missao);
+        System.out.println("Dificuldade: " + dificuldade);
+        System.out.println("Status da missão: " + status);*/
+    }
+}
