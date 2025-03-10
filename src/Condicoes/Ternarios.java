@@ -13,7 +13,6 @@ public class Ternarios {
 
         System.out.println(nivelDoNinja);
 
-        String resultado = (2 == 2) ? "Verdadeiro" : "Falso";
-        System.out.println(resultado);
+
     }
 }
