@@ -9,7 +9,9 @@ public class Array {
         ninja[2] = "Sakura Haruno";
         ninja[3] = "Kakashi Hatake";
 
-        System.out.println(ninja);
+        for (int i = 0; i < ninja.length; i++) {
+            System.out.println(ninja[i]);
+        }
 
 
 
