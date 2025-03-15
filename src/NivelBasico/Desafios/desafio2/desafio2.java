@@ -33,11 +33,11 @@ public class desafio2 {
                     if (cadastroNinjas.length > 0) {
                         System.out.println(" ");
                         System.out.println("Lista de ninjas cadastrados: ");
-                    } else if (cadastroNinjas.length == 0) {
+                    } else {
                         System.out.println("Nenhum ninja cadastrado. Por favor, cadastre um ninja primeiro.");
                     }
                     for (int i = 0; i < cadastroNinjas.length; i++) {
-                        System.out.println("" + (i + 1) + " - " + cadastroNinjas[i]);
+                        System.out.println((i + 1) + " - " + cadastroNinjas[i]);
                     }
                     break;
                 case 3:
