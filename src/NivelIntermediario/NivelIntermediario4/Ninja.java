@@ -1,4 +1,4 @@
-package NivelIntermediario4;
+package NivelIntermediario.NivelIntermediario4;
     // Para que essa merda serve? Serve para encher o saco, escalibilidade e manutenção!
 public abstract class Ninja {
 

@@ -1,4 +1,4 @@
-package NivelIntermediario3;
+package NivelIntermediario.NivelIntermediario3;
 
 public class Main {
     public static void main(String[] args) {

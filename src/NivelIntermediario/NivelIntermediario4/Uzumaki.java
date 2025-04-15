@@ -1,4 +1,4 @@
-package NivelIntermediario4;
+package NivelIntermediario.NivelIntermediario4;
 
 public class Uzumaki implements NinjaInterface{
 
