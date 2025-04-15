@@ -1,19 +1,15 @@
 package Desafios.desafio4;
 
-public class NinjaAvancado implements Ninja {
-    String nome, patente, habilidade;
-    int idade;
+public class NinjaAvancado extends NinjaBasico {
+
     Especialidade especialidade;
 
     public NinjaAvancado() {
-
+        super();
     }
 
     public NinjaAvancado(String nome, int idade, String patente, String habilidade, Especialidade especialidade) {
-        this.habilidade = habilidade;
-        this.idade = idade;
-        this.nome = nome;
-        this.patente = patente;
+        super(nome,idade,patente,habilidade);
         this.especialidade = especialidade;
     }
 
@@ -26,10 +22,5 @@ public class NinjaAvancado implements Ninja {
         System.out.println("Habilidade: " + this.habilidade);
         System.out.println("Especialidade: " + this.especialidade);
         System.out.println("-------------------------------------");
-    }
-
-    @Override
-    public void executarHabilidade() {
-        System.out.println("O ninja " + this.nome + " executou a habilidade: " + this.habilidade);
     }
 }
