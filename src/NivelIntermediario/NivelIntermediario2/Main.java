@@ -12,11 +12,17 @@ public class Main {
         naruto.habilidadeEspecial();
         naruto.estrategiaDeBatalhaNinja();
 
+        //metodo comum
+        naruto.inteligenciaDeCombate();
+
         System.out.println(  );
         // Obj Uchiha
         Uchiha sasuke = new Uchiha("Aldeia da folha", 18, "Sasuke Uchiha", 26, RankNinja.GENIN);
         sasuke.habilidadeEspecial();
         sasuke.estrategiaDeBatalhaNinja();
+
+        //metodo sobrecarregado
+        sasuke.inteligenciaDeCombate(120);
 
         System.out.println( );
         // Obj Uchiha2
@@ -24,10 +30,16 @@ public class Main {
         itachi.habilidadeEspecial();
         itachi.estrategiaDeBatalhaNinja();
 
+        //metodo sobrecarregado
+        itachi.inteligenciaDeCombate(150);
+
         System.out.println( );
         // Obj Uchiha3
         Uchiha madara = new Uchiha("Aldeia da folha", 90, "Madara Uchiha", 900, RankNinja.KAGE);
         madara.habilidadeEspecial();
         madara.estrategiaDeBatalhaNinja();
+
+        //metodo sobrecarregado
+        madara.inteligenciaDeCombate(255);
     }
 }
