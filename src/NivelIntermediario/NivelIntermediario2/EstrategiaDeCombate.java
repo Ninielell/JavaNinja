@@ -1,4 +1,4 @@
-package NivelIntermediario2;
+package NivelIntermediario.NivelIntermediario2;
 
 public interface EstrategiaDeCombate {
     void estrategiaDeBatalhaNinja();
