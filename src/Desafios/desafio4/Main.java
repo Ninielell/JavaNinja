@@ -39,5 +39,6 @@ public class Main {
         NinjaAvancado sasuke = new NinjaAvancado("Sasuke Uchiha", 18, "Chunin", "Chidori", Especialidade.Ninjutsu);
         sasuke.mostrarInformacoes();
         sasuke.executarHabilidade();
+
     }
 }

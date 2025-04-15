@@ -30,4 +30,5 @@ public class NinjaBasico implements Ninja {
     public void executarHabilidade() {
         System.out.println("O ninja " + this.nome + " executou a habilidade: " + this.habilidade);
     }
+
 }

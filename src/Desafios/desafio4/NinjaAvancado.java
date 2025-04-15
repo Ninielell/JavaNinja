@@ -22,5 +22,6 @@ public class NinjaAvancado extends NinjaBasico {
         System.out.println("Habilidade: " + this.habilidade);
         System.out.println("Especialidade: " + this.especialidade);
         System.out.println("-------------------------------------");
+
     }
 }
