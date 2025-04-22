@@ -6,7 +6,8 @@ public class Main {
         System.out.println("---------- Naruto Uzumaki ----------");
         Uzumaki naruto = new Uzumaki("Aldeia da folha", 17, "Naruto Uzumaki");
         System.out.println(naruto);
-
+        naruto.tacarKunai();
+        System.out.println(naruto.altura);
         System.out.println("---------- Sasuke Uchiha ----------");
         Uchiha sasuke = new Uchiha("Aldeia da folha", 18, "Sasuke Uchiha");
         System.out.println(sasuke);

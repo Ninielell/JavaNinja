@@ -9,6 +9,7 @@ public abstract class Ninja implements EstrategiaDeCombate{
     int idade;
     int numeroDeMissoesConcluida;
     RankNinja rank;
+    final double altura = 2.10; // Qualquer metodo, atributo ou classe nao pode ser alterado se tiver Final
 
     public Ninja() {
     }
@@ -18,6 +19,10 @@ public abstract class Ninja implements EstrategiaDeCombate{
         this.aldeia = aldeia;
         this.idade = idade;
         this.nome = nome;
+    }
+
+    final void tacarKunai() {
+        System.out.println("Joguei kunai!");
     }
 
     // TODO: Sobrecarga do construtor chamando os novos atributos
