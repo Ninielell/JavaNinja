@@ -11,5 +11,10 @@ public class Main {
         System.out.println("---------- Sasuke Uchiha ----------");
         Uchiha sasuke = new Uchiha("Aldeia da folha", 18, "Sasuke Uchiha");
         System.out.println(sasuke);
+
+        System.out.println("-----------");
+        Anbu ninjaAnbu = new Anbu();
+        ninjaAnbu.nome = "Anbu";
+
     }
 }
